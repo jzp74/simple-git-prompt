@@ -23,5 +23,6 @@ Then reopen your bash shell, ```cd``` to a git repository and test it!
 * ``(master|✚7?3)``: on branch ``master``, 7 files changed, 4 files untracked
 * ``(master|✖2✚3)``: on branch ``master``, 2 conflicts, 3 files changed
 * ``(status|✔)``: on branch ``status``, repository clean
+
 ## License
 This code is under the [GNU General Public License version 2.0 license][license].
