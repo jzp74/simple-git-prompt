@@ -10,10 +10,10 @@ git clone https://github.com/jzp74/simple-git-prompt.git .simple-git-prompt
 Then add the following lines to your ```~/.bashrc```
 ```bash
 # settings for simple-git-prompt
-#SIMPLE_GIT_PROMPT_WINDOW_TITLE="Some title"	# Uncomment to set a window title
-#SIMPLE_GIT_PROMPT_MAX_PWD_LEN=24			   # Uncomment to set a maximum length of current path (PWD). Use 0 to not display $PWD at all
-#SIMPLE_GIT_PROMPT_PREFIX="@\h"			     # Uncomment to change the standard prefix of this prompt
-#SIMPLE_GIT_PROMPT_SUFFIX="-->"			     # Uncomment to change the standard postfix of this prompt
+#SIMPLE_GIT_PROMPT_WINDOW_TITLE="Some title"  # Uncomment to set a window title
+#SIMPLE_GIT_PROMPT_MAX_PWD_LEN=24             # Uncomment to set a maximum length of current path (PWD). Use 0 to not display $PWD at all
+#SIMPLE_GIT_PROMPT_PREFIX="@\h"               # Uncomment to change the standard prefix of this prompt
+#SIMPLE_GIT_PROMPT_SUFFIX="-->"               # Uncomment to change the standard postfix of this prompt
 source ~/.simple-git-prompt/simplegitprompt.sh
 ```
 Then reopen your bash shell, ```cd``` to a git repository and test it!
