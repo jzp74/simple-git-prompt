@@ -98,11 +98,26 @@ function simple_git_prompt() {
 
 # set several environment variables
 simple_git_prompt_dir
-__COLORS_CMD="${__SIMPLE_GIT_PROMPT_DIR}/prompt-colors.sh"
 __GIT_STATUS_CMD="${__SIMPLE_GIT_PROMPT_DIR}/gitstatus.sh"
 
-# set colors
-source "${__COLORS_CMD}"
+# set standard colors manually
+Black="\[\033=[0;30m\]"
+BoldBlack="\[\033[1;30m\]"
+Red="\[\033[0;31m\]"
+BoldRed="\[\033[1;31m\]"
+Green="\[\033[0;32m\]"
+BoldGreen="\[\033[1;32m\]"
+Yellow="\[\033[0;33m\]"
+BoldYellow="\[\033[1;33m\]"
+Blue="\[\033[0;34m\]"
+BoldBlue="\[\033[1;34m\]"
+Magenta="\[\033[0;35m\]"
+BoldMagenta="\[\033[1;35m\]"
+Cyan="\[\033[0;36m\]"
+BoldCyan="\[\033[1;36m\]"
+White="\[\033[0;37m\]"
+BoldWhite="\[\033[1;37m\]"
+ResetColor="\[\033[0;0m\]"
 
 # set standard function to set PS1
 PROMPT_COMMAND=simple_git_prompt
