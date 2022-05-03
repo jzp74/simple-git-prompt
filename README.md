@@ -1,6 +1,10 @@
 # simple-git-prompt
-This prompt is a port of the "Informative and fancy bash prompt for Git users" which you can find [here](https://github.com/magicmonty/bash-git-prompt)
-A ``bash`` prompt that displays information about the current git repository, the branch name, number of files staged, changed, etc.
+A very simple ``bash`` prompt that displays information about the current git repository, the branch name, number of files staged, changed, etc.
+
+Note: Tested only on Windows machines in a Git shell
+
+Note: This prompt is a port of the "Informative and fancy bash prompt for Git users" which you can find [here](https://github.com/magicmonty/bash-git-prompt)
+
 ## Installation
 First clone this repository to your home directory
 ```bash
